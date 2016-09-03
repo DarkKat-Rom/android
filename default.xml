@@ -37,6 +37,7 @@
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
+  <project path="device/asus/flo" name="android_device_asus_flo" remote="darkkat" revision="darkkat-n-dev" />
   <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk" />
   <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
@@ -396,6 +397,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
+  <project path="kernel/msm/flo" name="android_kernel_asus_flo" remote="darkkat" revision="darkkat-n" />
   <project path="kernel/msm/hammerhead" name="android_kernel_lge_hammerhead" remote="darkkat" revision="darkkat-n" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
@@ -547,6 +549,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="darkkat" revision="darkkat-n" />
   <project path="vendor/dk" name="android_vendor_dk" remote="darkkat" revision="darkkat-n" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="darkkat" revision="darkkat-n" />
 </manifest>
