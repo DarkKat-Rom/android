@@ -2,7 +2,17 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com" />
+
+  <remote  name="darkkat"
+           fetch="https://github.com/DarkKat-Rom" />
+
+  <remote  name="xxmrhyde"
+           fetch="https://github.com/XXMrHyde" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
   <default revision="refs/tags/android-7.0.0_r4"
            remote="aosp"
            sync-j="4" />
@@ -17,6 +27,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
+  <project path="android" name="android" remote="darkkat" revision="darkkat-n" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
