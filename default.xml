@@ -10,7 +10,7 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <default revision="refs/tags/android-7.1.1_r6"
+  <default revision="refs/tags/android-7.1.1_r13"
            remote="aosp"
            sync-j="4" />
 
@@ -439,7 +439,6 @@
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
   <project path="packages/apps/TV" name="platform/packages/apps/TV" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
-  <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="darkkat" revision="darkkat-n-1" groups="pdk-fs" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
