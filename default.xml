@@ -14,7 +14,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk,tradefed" >
+  <project path="build" name="android_build" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -24,17 +24,17 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="android" name="android" remote="darkkat" revision="darkkat-n-1-dev" />
+  <project path="android" name="android" remote="darkkat" revision="darkkat-n-1-u-r" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk" />
+  <project path="bionic" name="android_bionic" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="android_development" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/asus/flo" name="android_device_asus_flo" remote="darkkat" revision="darkkat-n-1-dev" />
+  <project path="development" name="android_development" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk-cw-fs,pdk-fs" />
+  <project path="device/asus/flo" name="android_device_asus_flo" remote="darkkat" revision="darkkat-n-1-u-r" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -57,7 +57,7 @@
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
   <project path="device/intel/edison" name="device/intel/edison" groups="device" />
-  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="darkkat" revision="darkkat-n-1-dev" />
+  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="darkkat" revision="darkkat-n-1-u-r" />
   <project path="device/linaro/hikey" name="device/linaro/hikey" />
   <project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
@@ -101,7 +101,7 @@
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/dhcpcd-6.8.2" name="platform/external/dhcpcd-6.8.2" />
-  <project path="external/dkcolorpicker" name="android_external_dkcolorpicker" remote="darkkat" revision="darkkat-n-1-dev" />
+  <project path="external/dkcolorpicker" name="android_external_dkcolorpicker" remote="darkkat" revision="darkkat-n-1-u-r" />
   <project path="external/dlmalloc" name="platform/external/dlmalloc" />
   <project path="external/dng_sdk" name="platform/external/dng_sdk" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
@@ -311,7 +311,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -319,7 +319,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -339,14 +339,14 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="android_frameworks_support" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/support" name="android_frameworks_support" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk,broadcom_wlan" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk,broadcom_wlan" />
   <project path="hardware/bsp/intel" name="platform/hardware/bsp/intel" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
@@ -367,14 +367,14 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="darkkat" revision="darkkat-n-1-dev" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="darkkat" revision="darkkat-n-1-u-r" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="darkkat" revision="darkkat-n-1-dev" groups="qcom" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="darkkat" revision="darkkat-n-1-u-r" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk,qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="darkkat" revision="darkkat-n-1-dev" groups="qcom,qcom_gps" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="darkkat" revision="darkkat-n-1-dev" groups="qcom,qcom_keymaster" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="darkkat" revision="darkkat-n-1-dev" groups="qcom" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk,qcom,qcom_display" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="darkkat" revision="darkkat-n-1-u-r" groups="qcom,qcom_gps" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="darkkat" revision="darkkat-n-1-u-r" groups="qcom,qcom_keymaster" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="darkkat" revision="darkkat-n-1-u-r" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
   <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
@@ -388,8 +388,8 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="kernel/msm/flo" name="android_kernel_asus_flo" remote="darkkat" revision="darkkat-n-1-dev" />
-  <project path="kernel/msm/hammerhead" name="android_kernel_lge_hammerhead" remote="darkkat" revision="darkkat-n-1-dev" />
+  <project path="kernel/msm/flo" name="android_kernel_asus_flo" remote="darkkat" revision="darkkat-n-1-u-r" />
+  <project path="kernel/msm/hammerhead" name="android_kernel_lge_hammerhead" remote="darkkat" revision="darkkat-n-1-u-r" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
@@ -402,52 +402,52 @@
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk-fs" />
-  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk-fs" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk-fs" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk-fs" />
-  <project path="packages/apps/DKSettings" name="android_packages_apps_DKSettings" remote="darkkat" revision="darkkat-n-1-dev" />
-  <project path="packages/apps/DKWallpapers" name="android_packages_apps_DKWallpapers" remote="darkkat" revision="darkkat-n-1-dev" />
-  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="darkkat" revision="darkkat-n-1-dev" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk-fs" />
+  <project path="packages/apps/DKSettings" name="android_packages_apps_DKSettings" remote="darkkat" revision="darkkat-n-1-u-r" />
+  <project path="packages/apps/DKWallpapers" name="android_packages_apps_DKWallpapers" remote="darkkat" revision="darkkat-n-1-u-r" />
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="darkkat" revision="darkkat-n-1-u-r" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" />
-  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk-fs" />
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk-fs" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk-fs" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk-fs" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
-  <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk-fs" />
+  <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
-  <project path="packages/apps/NougatNotificationTest" name="android_packages_apps_NougatNotificationTest" remote="darkkat" revision="darkkat-n-1-dev" />
+  <project path="packages/apps/NougatNotificationTest" name="android_packages_apps_NougatNotificationTest" remote="darkkat" revision="darkkat-n-1-u-r" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk-fs" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
-  <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk-fs" />
+  <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk-fs" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
   <project path="packages/apps/TV" name="platform/packages/apps/TV" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk-fs" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk-fs" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" groups="pdk-fs" />
@@ -466,9 +466,9 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="adp8064,pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Weather" name="android_packages_services_Weather" remote="darkkat" revision="darkkat-n-1-dev" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Weather" name="android_packages_services_Weather" remote="darkkat" revision="darkkat-n-1-u-r" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" />
@@ -518,7 +518,7 @@
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
   <project path="system/core" name="platform/system/core" groups="pdk" />
-  <project path="system/extras" name="android_system_extras" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk" />
+  <project path="system/extras" name="android_system_extras" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
@@ -527,7 +527,7 @@
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="darkkat" revision="darkkat-n-1-dev" groups="pdk" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="darkkat" revision="darkkat-n-1-u-r" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
@@ -547,8 +547,8 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="darkkat" revision="darkkat-n-1-dev" />
-  <project path="vendor/dk" name="android_vendor_dk" remote="darkkat" revision="darkkat-n-1-dev" />
-  <project path="vendor/lge" name="proprietary_vendor_lge" remote="darkkat" revision="darkkat-n-1-dev" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="darkkat" revision="darkkat-n-1-u-r" />
+  <project path="vendor/dk" name="android_vendor_dk" remote="darkkat" revision="darkkat-n-1-u-r" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="darkkat" revision="darkkat-n-1-u-r" />
 
 </manifest>
