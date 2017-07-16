@@ -10,7 +10,7 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <default revision="refs/tags/android-7.1.2_r12"
+  <default revision="refs/tags/android-7.1.2_r18"
            remote="aosp"
            sync-j="4" />
 
@@ -248,7 +248,6 @@
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/opencv3" name="platform/external/opencv3" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk-fs" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk-fs" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
