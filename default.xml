@@ -57,6 +57,7 @@
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
   <project path="device/intel/edison" name="device/intel/edison" groups="device" />
+  <project path="device/lge/bullhead" name="android_device_lge_bullhead" remote="darkkat" revision="darkkat-n-1-pure_dev1" />
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="darkkat" revision="darkkat-n-1-pure_dev1" />
   <project path="device/linaro/hikey" name="device/linaro/hikey" />
   <project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" clone-depth="1" />
@@ -387,6 +388,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
+  <project path="kernel/msm/bullhead" name="kernel/msm" revision="android-msm-bullhead-3.10-nougat-mr2" />
   <project path="kernel/msm/flo" name="android_kernel_asus_flo" remote="darkkat" revision="darkkat-n-1-pure_dev1" />
   <project path="kernel/msm/hammerhead" name="android_kernel_lge_hammerhead" remote="darkkat" revision="darkkat-n-1-pure_dev1" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
