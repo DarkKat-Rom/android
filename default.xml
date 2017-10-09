@@ -597,6 +597,7 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
   <project path="vendor/dk" name="android_vendor_dk" remote="darkkat" revision="darkkat-o-dev" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="darkkat" revision="darkkat-o-dev" />
+  <project path="vendor_overlay/lge" name="proprietary_vendor_overlay_lge" remote="darkkat" revision="darkkat-o-dev" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
 </manifest>
