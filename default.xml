@@ -111,6 +111,7 @@
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk" />
   <project path="external/desugar" name="platform/external/desugar" groups="pdk" />
   <project path="external/dhcpcd-6.8.2" name="platform/external/dhcpcd-6.8.2" groups="pdk" />
+  <project path="external/dkcolorpicker" name="android_external_dkcolorpicker" remote="darkkat" revision="darkkat-o-dev" />
   <project path="external/dng_sdk" name="platform/external/dng_sdk" groups="pdk" />
   <project path="external/dlmalloc" name="platform/external/dlmalloc" groups="pdk" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
