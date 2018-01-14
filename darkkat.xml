@@ -9,7 +9,7 @@
 
   <include name="remove.xml" />
 
-  <project path="android" name="android" remote="darkkat" revision="darkkat-o-1-dev" />
+  <project path="android" name="android" remote="darkkat" revision="darkkat-o-1-dev-flo" />
 
   <project path="bionic" name="android_bionic" remote="darkkat" revision="darkkat-o-dev-flo" groups="pdk" />
 
