@@ -11,7 +11,7 @@
 
   <project path="android" name="android" remote="darkkat" revision="darkkat-o-1-dev-flo" />
 
-  <project path="bionic" name="android_bionic" remote="darkkat" revision="darkkat-o-dev-flo" groups="pdk" />
+  <project path="bionic" name="android_bionic" remote="darkkat" revision="darkkat-o-1-dev-flo" groups="pdk" />
 
   <project path="build/make" name="android_build" remote="darkkat" revision="darkkat-o-1-dev-flo" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -25,20 +25,20 @@
 
   <project path="development" name="android_development" remote="darkkat" revision="darkkat-o-1-dev-flo" groups="developers,pdk-cw-fs,pdk-fs" />
 
-  <project path="device/asus/flo" name="android_device_asus_flo" remote="darkkat" revision="darkkat-o-dev-flo" />
+  <project path="device/asus/flo" name="android_device_asus_flo" remote="darkkat" revision="darkkat-o-1-dev-flo" />
 
   <project path="external/dkcolorpicker" name="android_external_dkcolorpicker" remote="darkkat" revision="darkkat-o-1-dev-flo" />
 
-  <project path="frameworks/av" name="android_frameworks_av" remote="darkkat" revision="darkkat-o-dev-flo" groups="pdk" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="darkkat" revision="darkkat-o-1-dev-flo" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="darkkat" revision="darkkat-o-1-dev-flo" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="android_frameworks_native" remote="darkkat" revision="darkkat-o-1-dev-flo" groups="pdk" />
   <project path="frameworks/support" name="android_frameworks_support" remote="darkkat" revision="darkkat-o-1-dev-flo" groups="pdk-cw-fs,pdk-fs" />
 
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="darkkat" revision="darkkat-o-dev-flo" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="darkkat" revision="darkkat-o-1-dev-flo" />
 
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="darkkat" revision="darkkat-o-dev-flo" groups="qcom,qcom_audio,pdk" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="darkkat" revision="darkkat-o-dev-flo" groups="qcom,qcom_gps,pdk" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="darkkat" revision="darkkat-o-dev-flo" groups="qcom,pdk" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="darkkat" revision="darkkat-o-1-dev-flo" groups="qcom,qcom_audio,pdk" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="darkkat" revision="darkkat-o-1-dev-flo" groups="qcom,qcom_gps,pdk" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="darkkat" revision="darkkat-o-1-dev-flo" groups="qcom,pdk" />
 
   <project path="packages/apps/DKSettings" name="android_packages_apps_DKSettings" remote="darkkat" revision="darkkat-o-1-dev-flo" />
   <project path="packages/apps/DKWeather" name="android_packages_apps_DKWeather" remote="darkkat" revision="darkkat-o-1-dev-flo" />
@@ -49,10 +49,10 @@
 
   <project path="packages/overlays" name="android_packages_overlays" remote="darkkat" revision="darkkat-o-1-dev-flo" />
 
-  <project path="system/bt" name="android_system_bt" remote="darkkat" revision="darkkat-o-dev-flo" groups="pdk" />
-  <project path="system/core" name="android_system_core" remote="darkkat" revision="darkkat-o-dev-flo" groups="pdk" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="darkkat" revision="darkkat-o-dev-flo" groups="pdk" />
+  <project path="system/bt" name="android_system_bt" remote="darkkat" revision="darkkat-o-1-dev-flo" groups="pdk" />
+  <project path="system/core" name="android_system_core" remote="darkkat" revision="darkkat-o-1-dev-flo" groups="pdk" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="darkkat" revision="darkkat-o-1-dev-flo" groups="pdk" />
 
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="darkkat" revision="darkkat-o-dev-flo" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="darkkat" revision="darkkat-o-1-dev-flo" />
   <project path="vendor/dk" name="android_vendor_dk" remote="darkkat" revision="darkkat-o-1-dev-flo" />
 </manifest>
