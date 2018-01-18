@@ -48,8 +48,6 @@
 
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="darkkat" revision="darkkat-o-1-dev-flo" groups="pdk-fs" />
 
-  <project path="packages/overlays" name="android_packages_overlays" remote="darkkat" revision="darkkat-o-1-dev-flo" />
-
   <project path="system/bt" name="android_system_bt" remote="darkkat" revision="darkkat-o-1-dev-flo" groups="pdk" />
   <project path="system/core" name="android_system_core" remote="darkkat" revision="darkkat-o-1-dev-flo" groups="pdk" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="darkkat" revision="darkkat-o-1-dev-flo" groups="pdk" />
