@@ -33,6 +33,7 @@
 
   <project path="packages/apps/DKSettings" name="android_packages_apps_DKSettings" remote="darkkat" revision="darkkat-o-1-dev" />
   <project path="packages/apps/DKWeather" name="android_packages_apps_DKWeather" remote="darkkat" revision="darkkat-o-1-dev" />
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="darkkat" revision="darkkat-o-1-dev" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="darkkat" revision="darkkat-o-1-dev" groups="pdk-fs" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="darkkat" revision="darkkat-o-1-dev" groups="pdk-fs" />
 
