@@ -19,6 +19,7 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/support" />
+  <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Terminal" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
