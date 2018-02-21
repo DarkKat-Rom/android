@@ -23,4 +23,5 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Terminal" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/system/sepolicy" />
 </manifest>
