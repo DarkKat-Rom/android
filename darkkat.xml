@@ -33,6 +33,7 @@
 
   <project path="packages/apps/DKNotificationTest" name="android_packages_apps_DKNotificationTest" remote="darkkat" revision="darkkat-o-1-dev" />
   <project path="packages/apps/DKSettings" name="android_packages_apps_DKSettings" remote="darkkat" revision="darkkat-o-1-dev" />
+  <project path="packages/apps/DKWallpapers" name="android_packages_apps_DKWallpapers" remote="darkkat" revision="darkkat-o-1-dev" />
   <project path="packages/apps/DKWeather" name="android_packages_apps_DKWeather" remote="darkkat" revision="darkkat-o-1-dev" />
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="darkkat" revision="darkkat-o-1-dev" />
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="darkkat" revision="darkkat-o-1-dev" />
