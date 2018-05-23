@@ -28,6 +28,7 @@
   <project path="device/asus/flo" name="android_device_asus_flo" remote="darkkat" revision="darkkat-o-1-dev-flo" />
 
   <project path="external/dkcolorpicker" name="android_external_dkcolorpicker" remote="darkkat" revision="darkkat-o-1-dev-flo" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="darkkat" revision="darkkat-o-1-dev-flo" />
   <project path="external/strace" name="android_external_strace" remote="darkkat" revision="darkkat-o-1-dev-flo" />
 
   <project path="frameworks/av" name="android_frameworks_av" remote="darkkat" revision="darkkat-o-1-dev-flo" groups="pdk" />
